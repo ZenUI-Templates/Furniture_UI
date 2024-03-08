@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-card  flex items-center justify-center flex-col  font-bold text-[18px] md:text-[22px] space-y-10 text-opacity-70 lg:text-[32px];
+  }
+}
