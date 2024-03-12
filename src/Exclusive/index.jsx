@@ -8,7 +8,7 @@ export default function Exlucive() {
   return (
     <div className="container my-32 lg:px-20">
       <ComHeader head={"Exclusive Furniture"} />
-      <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  lg:gap-10 gap-5 mt-10">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center  gap-5 mt-10">
         {data.map((item, index) => (
           <img className=" object-fill" src={item} key={index} alt="" />
         ))}

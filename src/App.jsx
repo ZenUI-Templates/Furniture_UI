@@ -5,10 +5,11 @@ import Exlucive from "./Exclusive";
 import Categories from "./Categories";
 import ProfChair from "./Prof";
 import Review from "./review";
+import Footer from "./Footer";
  
 export default function App() {
   return (
-    <div className=" mb-20 min-h-screen">
+    <div className="  min-h-screen">
       <Navbar />
       <Hero />
       <Benefit />
@@ -16,6 +17,7 @@ export default function App() {
       <Categories/>
       <ProfChair/>
       <Review/>
+      <Footer/>
     </div>
   );
 }
