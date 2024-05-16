@@ -1,4 +1,3 @@
-live link: https://furniture-ui-clone.vercel.app/
+# ZenUI Library Template
 
-
-## Soumik Sarkar 
+- visit our website to get more components and templates http://zenui-library.com
